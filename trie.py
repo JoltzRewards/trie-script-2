@@ -1,7 +1,24 @@
 class Trie:
     """
     A class that represents the Trie data structure
+
+    Attributes
+    ----------
+    child : dict
+        This is where the trie data is stored. Each key is a letter in
+        the trie, and each value is a dictionary that stores the key-
+        value pairs of the subsequent letters.
+
+    Methods
+    -------
+    insert(word)
+        Inserts a word into the trie
+    search(word)
+        Determines whether a word exists inside the trie
+    starts_with(prefix)
+        Checks if a prefix is in the trie
     """
+
     def __init__(self):
         self.child = {}
 
@@ -31,6 +48,7 @@ class Trie:
         -------
         word : str
             The word that is checked
+
         Returns
         -------
         bool
@@ -56,6 +74,7 @@ class Trie:
         ----------
         prefix : str
             This is the prefix that is checked
+
         Returns
         -------
         bool
