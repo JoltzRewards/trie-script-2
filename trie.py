@@ -38,7 +38,7 @@ class Trie:
                 current[c] = {}
             current = current[c]
 
-        current["#"] = 1
+        current["#"] = 1  #end of word
 
 
     def search(self, word):

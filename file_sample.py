@@ -1,6 +1,5 @@
 #----------------------------------------------------------------------------------
-# This trie example builds the following dictionary:
-#   trie_obj.child = {'r': {'e': {'a': {'d': {'#': 1}}, 's': {'t': {'#': 1}}}}}
+# read file and insert each word into a trie
 #----------------------------------------------------------------------------------
 
 from trie import Trie
