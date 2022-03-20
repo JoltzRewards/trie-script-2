@@ -1,10 +1,17 @@
-# Trie
+# Trubit's Trie
 
-This project basic implementation of the Trie data structure with example use cases.
+Trubit customer data in Trie.
 
-## Installation
+## Modules
 
-Download the code through GitHub, or clone this repository.
+1. trie - Trie class
+
+2. trie_builder - builds Trie data from a text file
+
+3. trie_searcher - search for prefix keyword
+
+4. trie_searcher_suffix - search for suffix, after matching prefix
+
 
 ## Usage
 
@@ -22,12 +29,4 @@ trie_obj.search("read")
 
 # Returns True because 're' is a prefix in the trie.
 trie_obj.starts_with("re")
-```
-
-## Example Code
-
-Example code is located in `example.py`. Run it using the following command:
-
-```bash
-python example.py
 ```
